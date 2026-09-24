@@ -1,0 +1,64 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum StoryStatus {
+  DRAFT
+  PUBLISHED
+}
+
+enum StoryBlockType {
+  HEADING
+  TEXT
+  IMAGE
+  VIDEO
+}
+
+model Story {
+  id              String      @id @default(cuid())
+  title           String
+  slug            String      @unique
+  excerpt         String
+  category        String
+  coverImageUrl   String
+  author          String      @default("AAE Tech Team")
+  status          StoryStatus @default(DRAFT)
+  publishedAt     DateTime?
+
+  blocks          StoryBlock[]
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@index([status, publishedAt])
+  @@index([category])
+}
+
+model StoryBlock {
+  id          String         @id @default(cuid())
+  storyId     String
+  type        StoryBlockType
+
+  // TEXT blocks
+  text        String?
+
+  // IMAGE / VIDEO blocks
+  mediaUrl    String?
+
+  // Optional information displayed with media
+  caption     String?
+
+  // Controls the exact order of content on the article
+  sortOrder   Int
+
+  story       Story          @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  createdAt   DateTime       @default(now())
+
+  @@index([storyId, sortOrder])
+}

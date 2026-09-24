@@ -365,7 +365,7 @@ export default function Footer() {
           {/* CTA */}
           <Link
             href="/contact"
-            className="group mt-9 flex w-full items-center justify-between rounded-2xl bg-[var(--aae-green)] px-5 py-4 text-sm font-semibold text-white transition-all duration-300 hover:bg-[var(--aae-green-dark)]"
+            className="group mt-9 flex w-full items-center justify-between rounded-2xl bg-[var(--aae-green)] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[var(--aae-green-dark)]"
           >
             <span>Start a Conversation</span>
 
