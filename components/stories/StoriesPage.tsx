@@ -86,7 +86,7 @@ export default function StoriesPage({
               Stories & Updates
             </p>
 
-            <h1 className="mt-5 text-4xl font-semibold leading-[1.04] tracking-[-0.04em] text-white sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 text-4xl font-semibold leading-[1.04] tracking-[-0.04em] text-white sm:text-4xl lg:text-5xl">
               Stories That Bring Our Work{" "}
               <span className="text-[var(--aae-green)]">
                 To Life.
