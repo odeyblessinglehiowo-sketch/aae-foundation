@@ -98,7 +98,7 @@ export default function GetInvolved() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="mx-auto mt-8 max-w-md border-t border-[var(--aae-border)] pt-4 sm:mt-10"
+          className="mx-auto mt-7 max-w-md border-t border-[var(--aae-border)] pt-4 sm:mt-10"
         >
           <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--aae-text-light)]">
             Our philosophy
