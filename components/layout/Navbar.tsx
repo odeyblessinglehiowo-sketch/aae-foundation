@@ -10,7 +10,6 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Programmes", href: "/programmes" },
-  { name: "Our Impact", href: "/impact" },
   { name: "Stories", href: "/stories" },
   { name: "Get Involved", href: "/get-involved" },
 ];
@@ -257,12 +256,12 @@ export default function Navbar() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.45, duration: 0.5 }}
-                  className="mt-auto pt-12"
+                  className="mt-4 pt-3"
                 >
                   <Link
                     href="/contact"
                     onClick={() => setOpen(false)}
-                    className="group flex w-full items-center justify-between rounded-2xl bg-[var(--aae-green)] px-5 py-4 text-base font-semibold text-white transition-all duration-300 hover:bg-[var(--aae-green-dark)]"
+                    className="group flex w-full items-center justify-between rounded-2xl bg-[var(--aae-green)] px-5 py-2 text-base font-semibold text-white transition-all duration-300 hover:bg-[var(--aae-green-dark)]"
                   >
                     <span>Contact Us</span>
 

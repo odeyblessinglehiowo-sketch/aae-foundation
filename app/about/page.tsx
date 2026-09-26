@@ -11,7 +11,7 @@ import GetInvolved from "@/components/about/GetInvolved";
 export const metadata = {
   title: "About Us | AAE Foundation",
   description:
-    "Learn about the AAE Foundation, our vision, mission, leadership, areas of impact, and commitment to advancing education, empowerment, and equal opportunity for all.",
+    "Learn about AAE Foundation, our vision, mission, values, and commitment to education, empowerment, inclusion, and community development.",
 };
 
 export default function AboutPage() {

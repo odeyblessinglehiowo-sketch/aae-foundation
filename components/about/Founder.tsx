@@ -133,7 +133,7 @@ export default function Founder() {
               {/* CTA */}
               <div className="mt-6">
                 <Link
-                  href="/impact"
+                  href="/programmes"
                   className="group inline-flex items-center gap-3 rounded-full border border-[var(--aae-navy)]/15 px-6 py-3 text-sm font-semibold text-[var(--aae-navy)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[var(--aae-green)] hover:bg-[var(--aae-green)] hover:text-white"
                 >
                   Explore Our Impact
