@@ -8,6 +8,33 @@ import Link from "next/link";
 
 const programmes = [
   {
+  category: "Education Support",
+
+  title: "Back-to-School Scholarship & Support",
+
+  description:
+    "The AAE Foundation supported deserving children with scholarships, school supplies, uniforms, and other essential resources to help them return to school prepared and confident. The initiative reflects the Foundation’s commitment to expanding access to education and investing in brighter futures for children.",
+
+  images: [
+    {
+      src: "/images/go-back-to-school-1.webp",
+      alt: "Children receiving back-to-school support",
+    },
+    {
+      src: "/images/go-back-to-school-2.webp",
+      alt: "Back-to-school scholarship beneficiaries",
+    },
+    {
+      src: "/images/go-back-to-school-3.webp",
+      alt: "Children receiving school materials",
+    },
+    {
+      src: "/images/go-back-to-school-4.webp",
+      alt: "Back-to-school outreach activity",
+    },
+  ],
+},
+  {
     category: "Women Empowerment",
     title: "Makeup & Skills Empowerment",
     description:
