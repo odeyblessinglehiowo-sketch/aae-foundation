@@ -92,7 +92,7 @@ export default function StoriesPreview({
             transition={{ duration: 0.7, delay: 0.05 }}
             className="text-2xl font-semibold leading-[1.08] tracking-[-0.045em] text-[var(--aae-navy)] sm:text-4xl lg:text-5xl"
           >
-            The People Behind The Work.
+            Stories That Bring Our Work To Life.
           </motion.h2>
 
           <motion.p

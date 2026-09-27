@@ -624,4 +624,124 @@ export const stories: StoryInput[] = [
     },
   ],
 },
+{
+  title:
+    "NEW YORK: Citation Highlights Dr. Judith Mayen Etuk Ogbara’s Humanitarian Journey",
+
+  slug:
+    "new-york-citation-highlights-dr-judith-mayen-etuk-ogbaras-humanitarian-journey",
+
+  excerpt:
+    "A defining moment of Dr. Judith Mayen Etuk Ogbara’s recent humanitarian honour in New York was the presentation of an official citation highlighting her achievements, humanitarian contributions, and commitment to service.",
+
+  category: "Humanitarian Recognition",
+
+  coverImageUrl: "/images/new-york-citation-1.webp",
+
+  status: "PUBLISHED",
+
+  publishedAt: "2026-09-20T00:00:00.000Z",
+
+  author: "AAE Tech Team",
+
+  blocks: [
+    {
+      type: "TEXT",
+      text:
+        "A defining moment of the recent humanitarian honour bestowed on Dr. Judith Mayen Etuk Ogbara, Chairman of G4EP, was the presentation of the official citation documenting her humanitarian journey, achievements, and commitment to service.",
+    },
+
+    {
+      type: "TEXT",
+      text:
+        "During the event in New York, the citation was read across several pages, highlighting the work, contributions, and service that preceded the recognition. The detailed presentation provided the audience with a broader context to the honour, capturing the journey and impact behind the recognition before it was formally presented.",
+    },
+
+    {
+      type: "TEXT",
+      text:
+        "The citation served as a reflection of the work and dedication that culminated in the honour. Watch the full citation and presentation in the video above.",
+    },
+
+    {
+      type: "IMAGE",
+      mediaUrl: "/images/new-york-citation-2.webp",
+    },
+
+    {
+      type: "IMAGE",
+      mediaUrl: "/images/new-york-citation-3.webp",
+    },
+
+    {
+      type: "VIDEO",
+      mediaUrl: "/videos/new-york-citation-video.mp4",
+    },
+  ],
+},
+{
+  title: "Go Back to School Scholarship",
+
+  slug: "go-back-to-school-scholarship",
+
+  excerpt:
+    "AAE Foundation supports deserving children with scholarships, school supplies, uniforms, and essential resources to help them return to school and pursue a brighter future.",
+
+  category: "Education & Scholarships",
+
+  coverImageUrl: "/images/go-back-to-school-scholarship-1.webp",
+
+  status: "PUBLISHED",
+
+  publishedAt: "2026-09-26T00:00:00.000Z",
+
+  author: "AAE Tech Team",
+
+  blocks: [
+    {
+      type: "TEXT",
+      text:
+        "Education is the key to a brighter future, and every child deserves the opportunity to learn, grow, and build a better tomorrow. In the spirit of giving and investing in the next generation, the AAE Foundation is supporting deserving children through its Go Back to School Scholarship initiative.",
+    },
+
+    {
+      type: "TEXT",
+      text:
+        "The initiative is designed to help children return to school with greater confidence and the support they need to continue their education. Through direct scholarship assistance, the Foundation is helping reduce some of the financial barriers that can prevent children from returning to the classroom.",
+    },
+
+    {
+      type: "TEXT",
+      text:
+        "Support also extends beyond school fees, with beneficiaries receiving essential school supplies, uniforms, and other materials needed for the new academic session. These practical interventions are intended to help children begin the school year prepared, encouraged, and ready to learn.",
+    },
+
+    {
+      type: "TEXT",
+      text:
+        "This initiative reflects the Foundation’s wider commitment to education and opportunity. From providing scholarship support to students to assisting children with essential school materials, AAE Foundation continues to invest in education as a pathway to personal development and stronger communities.",
+    },
+
+    {
+      type: "TEXT",
+      text:
+        "At the heart of the initiative is a simple belief: when we invest in a child, we invest in the future. By helping children stay in school and providing the resources they need to thrive, we can contribute to a future where more young people have the opportunity to reach their full potential.",
+    },
+
+    {
+      type: "IMAGE",
+      mediaUrl: "/images/go-back-to-school-scholarship-2.webp",
+    },
+
+    {
+      type: "IMAGE",
+      mediaUrl: "/images/go-back-to-school-scholarship-3.webp",
+    },
+
+    {
+      type: "IMAGE",
+      mediaUrl: "/images/go-back-to-school-scholarship-4.webp",
+    },
+  ],
+},
 ];
