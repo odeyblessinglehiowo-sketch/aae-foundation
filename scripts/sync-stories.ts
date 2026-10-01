@@ -106,6 +106,39 @@ async function syncStories() {
     console.log(`✓ ${status}: ${title}`);
   }
 
+  // Remove stories that no longer exist in lib/story-content.ts.
+  // This keeps the database fully synchronized with the code file.
+  const sourceSlugs = stories.map((story) => story.slug);
+
+  const staleStories = await prisma.story.findMany({
+    where: {
+      slug: {
+        notIn: sourceSlugs,
+      },
+    },
+    select: {
+      id: true,
+      title: true,
+      slug: true,
+    },
+  });
+
+  if (staleStories.length > 0) {
+    await prisma.story.deleteMany({
+      where: {
+        slug: {
+          notIn: sourceSlugs,
+        },
+      },
+    });
+
+    console.log("\nRemoved stale stories:");
+
+    for (const story of staleStories) {
+      console.log(`✗ ${story.title} (${story.slug})`);
+    }
+  }
+
   console.log("\nStory sync complete.");
 }
 
